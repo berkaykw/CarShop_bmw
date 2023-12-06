@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMW Car Shop</title>
+    <!--css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+</head>
+
+<body>
+    <!-- Header kısmı -->
+    <div class="header" id="home">
+        <nav id="navbar">
+            <a href="#home" class="logo">BMW <img src="img/logo.avif" height="30" width="30"><span></span></a>
+            <div class="links" id="nav">
+                <a href="#home">Ana Sayfa</a>
+                <a href="#about">Modeller</a>
+                <a href="#contact">İletişim</a>
+            </div>
+            <div class="fas fa-bars" id="menu-btn" onclick="openmenu()"></div>
+            <div class="fa-solid fa-xmark" id="close" onclick="closemenu()"></div>
+        </nav>
+        <div class="content">
+            <h3 style="color: black;">Gerçekçi Sürüş Keyfi</h3>
+            <h1 style="color: black;">Yeni bir çağın öncüsü <br>BMW</h1>
+            <button style="color: black;" class="btn">Keşfet</button>
+        </div>
+    </div>
+    <!-- Header kısmı bitiş -->
+
+    <!-- hakkında kısmı -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="image">
+
+            </div>
+            <div class="about-content">
+                <h1 style="color: rgb(8, 8, 30);">Neden Bmw kullanmalısınız.</h1>
+                <h2>BMW, yüksek performanslı motorları ve dinamik sürüş özellikleriyle sizi yolda üstün bir deneyime taşırken,
+                     ileri teknolojisiyle de size gelişmiş bilgi-eğlence sistemleri ve sezgisel kontroller sunar.
+                      Ayrıca BMW'nin ikonik tasarımı da lüks ve prestijli bir görünüm sağlar.</h3>
+                <button class="btn" style="color: black;">Hakkımızda</button>
+
+            </div>
+        </div>
+    </section>
+    <!-- hakkında kısmı bitiş-->
+
+    <!-- model Kısmı -->
+    <section class="model" id="model">
+        <h1 class="heading">Araba <span>Modelleri</span></h1>
+        <p class="heading-description">Eşsiz Sürüş Keyfi.</p>
+        <div class="container">
+            <div class="post">
+                <div class="model-img">
+                    <img src="img/bmw_mseries.png" alt="">
+                    <span>Keşfedin</span>
+                </div>
+                <div class="model-content">
+                    
+                    <h1>M serileri</h1>
+                    <h2 style="color: rgb(39, 39, 39);">
+                    <h2>M ailesine özgü sürüş dinamikleri ve en üst düzeyde sportif konfor.</h2>
+                    <br>
+                    <h2>• 600 beygir gücünde yüksek performanslı BMW M TwinPower Turbo 8 silindirli benzinli motor.</h2>
+                    <h2>• Aktif M diferansiyeli ile M xDrive.</h2>
+                    <h2>• Drivelogic ile 8-ileri M Steptronic şansıman.</h2>
+                    <h2>• 600 bg , 750Nm , 0'dan 100km/saate 3,4 saniye.</h2>
+                    </h2>
+                </div>
+            </div>
+            <div class="post">
+                <div class="model-img">
+                    <img src="img/bmw_i_series.png" alt="">
+                    <span>Keşfedin</span>
+                </div>
+                <div class="model-content">
+                    <h1>İ Serileri</h1>
+                    <h2>• Mükemmel Bir An" karşılama deneyimi</h2>
+                    <h2>• Kristal farlar ve aydınlatmalı BMW "Iconic Glow" Böbrek Izgarası</h2>
+                    <h2>• Özel My Modes ile iç mekanda lüks bir lounge atmosferi</h2>
+                    <h2>• 400 kW* üzerinde güç çıkışı ve 600 km'yi* aşan tamamen elektrikli menzil</h2>
+                </div>
+            </div>
+            <div class="post">
+                <div class="model-img">
+                    <img src="img/bmw_concept_car.png" alt="">
+                    <span>Keşfedin</span>
+                </div>
+                <div class="model-content">
+                    <h1>Concept Car</h1>
+                    <h2>MW Vision M NEXT’in tasarımı.
+                        BMW Vision M NEXT için BMW tasarım ekibi, ikon haline gelmiş BMW Turbo ve çığır açan BMW i8’den ilham aldı. 
+                        Yeni BMW tasarım stratejisi doğrultusunda, 
+                        BMW Vision M NEXT, 
+                        sportif oranları ve yalnızca birkaç keskin çizgisi ile güçlü bir karakter yansıtıyor.</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- model kısmı bitiş-->
+    
+    
+    <!-- Contact kısmı  -->
+    <section class="contact" id="contact">
+        <h1 class="heading">Bizimle <span>İletişime geçin</span></h1>
+        <p class="heading-description">Sizin için daima burdayız...</p>
+        <div class="container">
+            <div class="contact-box">
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <h2>Email adresi <br> <span>İstediğiniz zaman ulaşın.</span></h2>
+                </div>
+                <div>
+                    <p>istunCars@gmail.com</p>
+                    <i class="fa-solid fa-right-long"></i>
+                </div>
+            </div>
+            <div class="contact-box">
+                <div>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h2>Adres <br> <span>Bizi bulun.</span></h2>
+                </div>
+                <div>
+                    <p>İstanbul , Türkiye</p>
+                    <i class="fa-solid fa-right-long"></i>
+                </div>
+            </div>
+            <div class="contact-box">
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <h2>Telefon numarası<br> <span>Bizi arayın.</span></h2>
+                </div>
+                <div>
+                    <p>+90 555 444 33 11</p>
+                    <i class="fa-solid fa-right-long"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact kısmı bitiş -->
+
+
+
+
+    <!-- Footer Kısmı -->
+    <section class="footer">
+
+
+        <div class="container">
+            <div class="footer-box">
+                <h3 style="color: black;">Hakkımızda </h3>
+                <br>
+                <h2 style="color: black;">Selef şirketlerden Bayerische Flugzeug-werke AG'nin kuruluş tarihi olan 7 Mart 1916,
+                     günümüzde BMW'nin kurulduğu tarih olarak kabul ediliyor.</h2> <br>
+                
+
+            </div>
+            <div class="footer-box">
+                <h3 style="color: black;">Bize ulaşın</h3>
+                <br>
+                <form>
+                    <input type="email" name="email" placeholder="kullancı@gmail.com">
+                    <button type="submit"><i class="fa-solid fa-right-long"></i></button>
+                </form>
+            </div>
+            <div class="footer-box">
+                <h3 style="color: black;">Bizi Takip Edin.</h3>
+                <p style="color: black;">Bağlantılarımız.</p>
+                <div>
+                    <a href="https://www.instagram.com/berkaykw/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/bahadirsandikciii/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/baranckz/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/yusufozpamuk/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Footer kısımı bitiş -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
